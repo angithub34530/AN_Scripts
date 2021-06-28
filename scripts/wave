@@ -1,0 +1,1 @@
+vsim -do "do wave.do /*" -view results/AN_VIP.wlf

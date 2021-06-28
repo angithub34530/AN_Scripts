@@ -1,0 +1,6 @@
+../HDL/core/Adder.v
+../HDL/core/Multiplier.v
+../HDL/core/RTL_Register.v
+../HDL/core/Datapath.v
+../HDL/core/Controller.v
+../HDL/core/TOP.v

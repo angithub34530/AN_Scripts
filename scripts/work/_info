@@ -1,0 +1,172 @@
+m255
+K4
+z2
+!s11f vlog 2021.1 2021.02, Feb  2 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/cheems/Documents/AN_VIP/scripts
+vAdder
+Z1 !s110 1624889628
+!i10b 1
+!s100 Th07Fmm7]_g8ci]QCh4zC2
+IN2]<WG`E_N?VKLO^jOJJA1
+R0
+Z2 w1624885297
+8../HDL/core/Adder.v
+F../HDL/core/Adder.v
+!i122 0
+Z3 L0 1 12
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OV;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1624889628.000000
+!s107 ../HDL/tb/TOP_tb.v|../HDL/core/TOP.v|../HDL/core/Controller.v|../HDL/core/Datapath.v|../HDL/core/RTL_Register.v|../HDL/core/Multiplier.v|../HDL/core/Adder.v|
+Z7 !s90 -f|compile.f|
+!i113 1
+Z8 !s92 +incdir+./HDL/tb +incdir+./HDL/tb/
+Z9 tCvgOpt 0
+n@adder
+vController
+R1
+!i10b 1
+!s100 dR<@cH=6OoMa_2X@n;BGO3
+IZbIh3oJB9aAkg0J46@Dd61
+R0
+R2
+8../HDL/core/Controller.v
+F../HDL/core/Controller.v
+!i122 0
+L0 1 57
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z10 !s107 ../HDL/tb/TOP_tb.v|../HDL/core/TOP.v|../HDL/core/Controller.v|../HDL/core/Datapath.v|../HDL/core/RTL_Register.v|../HDL/core/Multiplier.v|../HDL/core/Adder.v|
+R7
+!i113 1
+R8
+R9
+n@controller
+vDatapath
+R1
+!i10b 1
+!s100 djD`g=ildVCP1UY:zL8QX3
+I<:AG^e0GT4e9RKaAC4C8F0
+R0
+R2
+8../HDL/core/Datapath.v
+F../HDL/core/Datapath.v
+!i122 0
+L0 1 38
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
+n@datapath
+vMultiplier
+R1
+!i10b 1
+!s100 d^YnP>=THzA`f:2PEdSPI0
+IEbj]1KI1DOV=`?ZKO>mg_1
+R0
+R2
+8../HDL/core/Multiplier.v
+F../HDL/core/Multiplier.v
+!i122 0
+R3
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
+n@multiplier
+vRTL_Register
+R1
+!i10b 1
+!s100 ohkCk:53>Oj;R:i4X<<Od3
+I:>S[l1BmMMMkn:S[KRZY53
+R0
+R2
+8../HDL/core/RTL_Register.v
+F../HDL/core/RTL_Register.v
+!i122 0
+L0 1 13
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
+n@r@t@l_@register
+vTOP
+R1
+!i10b 1
+!s100 P9ETQWj<ZS=HEIce:[[d30
+I<a;GZni^a[OnIh>QQjG442
+R0
+R2
+8../HDL/core/TOP.v
+F../HDL/core/TOP.v
+!i122 0
+L0 1 19
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
+n@t@o@p
+vTOP_tb
+R1
+!i10b 1
+!s100 ?KeCJcR]VL?]?5ldlPgCI3
+IY4Hh>Z5J3QRkgO<FB2jNT1
+R0
+w1624888912
+8../HDL/tb/TOP_tb.v
+F../HDL/tb/TOP_tb.v
+!i122 0
+L0 2 47
+R4
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 1
+R8
+R9
+n@t@o@p_tb

@@ -1,0 +1,21 @@
+# vsim -c -voptargs="+acc" work.TOP_tb -l ./results/log/PWsgsMA7AdcZrhaSeNsyfKUCzgqIOi7m.log -wlf ./results/AN_VIP.wlf -do "log -r /*; run -all " 
+# Start time: 21:13:52 on Jun 28,2021
+# Loading work.TOP_tb
+# Loading work.TOP
+# Loading work.Controller
+# Loading work.Datapath
+# Loading work.RTL_Register
+# Loading work.Multiplier
+# Loading work.Adder
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'A'. The port definition is at: ../HDL/core/Multiplier.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /TOP_tb/inst0/dtp/mult1 File: ../HDL/core/Datapath.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'B'. The port definition is at: ../HDL/core/Adder.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /TOP_tb/inst0/dtp/adder1 File: ../HDL/core/Datapath.v Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'B'. The port definition is at: ../HDL/core/Adder.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /TOP_tb/inst0/dtp/adder2 File: ../HDL/core/Datapath.v Line: 34
+# log -r /*
+#  run -all 
+# ** Note: $finish    : ../HDL/tb/TOP_tb.v(45)
+#    Time: 2620 ns  Iteration: 0  Instance: /TOP_tb
+# End time: 21:13:52 on Jun 28,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
